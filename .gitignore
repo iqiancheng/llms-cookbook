@@ -1,0 +1,56 @@
+# General
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+.antigravity/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Deep Learning Frameworks
+# PyTorch
+*.pt
+*.pth
+*.pkl
+
+# TensorFlow
+*.pb
+*.ckpt
+checkpoint
+
+# LLM & Large Files
+*.bin
+*.safetensors
+*.gguf
+*.h5
+model.safetensors
+pytorch_model.bin
+adapter_model.bin
+
+# Hugging Face
+.cache/
+datasets/
+outputs/
+logs/
+results/
+wandb/
+
+# Training logs
+runs/
+*.log
+# hostfile

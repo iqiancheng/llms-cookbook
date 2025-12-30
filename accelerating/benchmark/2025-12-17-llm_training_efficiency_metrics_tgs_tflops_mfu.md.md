@@ -15,7 +15,7 @@ tags: [training, efficiency, metrics, gpu]
 **计算公式：**
 
 $$
-\text{TGS} = \frac{\text{gbs} \times \text{seqlen}}{\text{step\_time} \times \text{num\_gpus}}
+\text{TGS} = \frac{\text{gbs} \times \text{seqlen}}{\text{step\\_time} \times \text{num\\_gpus}}
 $$
 
 其中 **gbs** (Global Batch Size) = mbs × DP × grad_accum，包含以下参数：
